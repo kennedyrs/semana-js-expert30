@@ -1,18 +1,25 @@
 {
-  "name": "client",
-  "version": "1.0.0",
+  "name": "@kennedyrs/hacker-chat-client",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
   "scripts": {
-    "user01": " node index.js --username kennedy --room sala01 --hostUri http://localhost:9898",
-    "user02": " node index.js --username karol --room sala01 --hostUri http://localhost:9898",
-    "user03": " node index.js --username maria --room sala01 --hostUri http://localhost:9898",
+    "user01": " node index.js --username kennedy --room sala01",
+    "user02": " node index.js --username karol --room sala01",
+    "user03": " node index.js --username maria --room sala01",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennedyrs/semana-js-expert30.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "@kennedyrs",
   "license": "ISC",
   "dependencies": {
     "blessed": "^0.1.81"
